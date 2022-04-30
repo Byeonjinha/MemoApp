@@ -7,15 +7,17 @@
 
 import SwiftUI
 
+struct Topic : Identifiable, Equatable {
+    var id = UUID()
+    var content = String
+}
+
+
 struct ContentView: View {
+    memoList
     var body: some View {
         Text("Hello, world!")
             .padding()
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+]
