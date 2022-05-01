@@ -1,20 +1,20 @@
 //
-//  secretPage.swift
+//  SecretMemo.swift
 //  memoApp (iOS)
 //
-//  Created by Byeon jinha on 2022/04/30.
+//  Created by Byeon jinha on 2022/05/01.
 //
 
 import SwiftUI
 
-struct secretPage: View {
+struct SecretMemo: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct secretPage_Previews: PreviewProvider {
+struct SecretMemo_Previews: PreviewProvider {
     static var previews: some View {
-        secretPage()
+        SecretMemo()
     }
 }

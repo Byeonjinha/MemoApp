@@ -13,7 +13,7 @@ struct memoAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(password: "").environmentObject(MemoData)
+            ContentView().environmentObject(MemoData)
         }
     }
 }
